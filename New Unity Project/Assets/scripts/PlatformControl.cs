@@ -3,51 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlatformControl : MonoBehaviour {
-    public float rotPower = 0.005f;
-    public int cooldown = 25;
+    
     public int step = 50;
-    public Rigidbody body;
+    public float rotationPower = 0.05f;
+    //public Rigidbody body;
 
-    private Quaternion target;
-    private int currentCooldown = 0;
+    public Quaternion target;
+    
 
 	// Use this for initialization
 	void Start () {
-        target = this.transform.rotation;
-
+        target = transform.rotation;
     }
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-        //float v = Input.GetAxis("Vertical");
-        //float h = Input.GetAxis("Horizontal");
-
-        StepMovement();
-	}
-
-    void StepMovement()
-    {
-        
-        if (currentCooldown <= 0)
-        {
-            if (Input.GetKey(KeyCode.A)) target.z += rotPower;
-            if (Input.GetKey(KeyCode.D)) target.z -= rotPower;
-            if (Input.GetKey(KeyCode.W)) target.x += rotPower;
-            if (Input.GetKey(KeyCode.S)) target.x -= rotPower;
-            if (Input.anyKey) currentCooldown = cooldown;
-        }
-        else currentCooldown--;
         var cur = transform.rotation;
         cur.x += (target.x - cur.x) / step;
         cur.z += (target.z - cur.z) / step;
-
-        this.transform.rotation = cur;
-        //transform.rotation = Quaternion.RotateTowards(transform.rotation, target, turningRate);
-        //this.transform.rotation = rot;
-
-
+        transform.rotation = cur;
     }
 
+    /*
+        //float v = Input.GetAxis("Vertical");
+        //float h = Input.GetAxis("Horizontal");
     void TorqMovement()
     {
         
@@ -65,5 +44,5 @@ public class PlatformControl : MonoBehaviour {
         if (Input.GetKey(KeyCode.W)) rot.x += rotPower;
         if (Input.GetKey(KeyCode.S)) rot.x -= rotPower;
         this.transform.rotation = rot;
-    }
+    } */
 }

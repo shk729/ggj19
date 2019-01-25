@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlatformControl : MonoBehaviour {
-    float rotPower = 0.02f;
+    float rotPower = 0.005f;
 
 
 	// Use this for initialization
@@ -24,6 +24,7 @@ public class PlatformControl : MonoBehaviour {
         if (Input.GetKey(KeyCode.W)) rot.x += rotPower;
         if (Input.GetKey(KeyCode.S)) rot.x -= rotPower;
 
+        //this.transform.ro
         this.transform.rotation = rot;
 	}
 }

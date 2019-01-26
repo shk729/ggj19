@@ -11,6 +11,8 @@ public class ControllerCooldown : MonoBehaviour
     private int currentCooldown = 0;
     public int slowCooldown = 2;
 
+    public UnityEngine.UI.Image image;
+
     public PlayerContainer container;
 
     // Start is called before the first frame update
@@ -20,9 +22,13 @@ public class ControllerCooldown : MonoBehaviour
 
     void FixedUpdate()
     {
+        float prc = (float) currentCooldown / cooldown;
+        image.fillAmount = prc;
+        //texter.text = this.name + ": " + prc;
+
         if (currentCooldown <= 0)
         {
-            texter.text = this.name + ": " + cooldown;
+            texter.text = "" + cooldown;
             if (slowCooldown-- <= 0)
             {
                 slowCooldown = cooldown--;

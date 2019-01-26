@@ -20,7 +20,7 @@ public class PlayerControl : MonoBehaviour
     {
         if (currentCooldown <= 0)
         {
-            if (Input.GetKey(key_left))  platform.target.z += platform.rotationPower;
+            if (Input.GetKey(key_left)) platform.target.z += platform.rotationPower;
             if (Input.GetKey(key_right)) platform.target.z -= platform.rotationPower;
             if (Input.GetKey(key_up))    platform.target.x += platform.rotationPower;
             if (Input.GetKey(key_down))  platform.target.x -= platform.rotationPower;

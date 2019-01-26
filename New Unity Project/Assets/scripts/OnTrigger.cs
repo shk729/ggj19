@@ -5,6 +5,7 @@ using UnityEngine;
 public class OnTrigger : MonoBehaviour
 {
     public string victoryScene;
+    public string victoryName;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +15,6 @@ public class OnTrigger : MonoBehaviour
     // Update is called once per frame
     void OnTriggerEnter(Collider other)
     {
-        //Debug.Log("Collision enter...");
-        UnityEngine.SceneManagement.SceneManager.LoadScene(victoryScene);
+        if (other.name == victoryName) UnityEngine.SceneManagement.SceneManager.LoadScene(victoryScene);
     }
 }

@@ -190,7 +190,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1933377399582136, guid: f8608632ba990384aa233f9e0910fef6, type: 3}
       propertyPath: m_Name
-      value: Player
+      value: PlayerBlue
       objectReference: {fileID: 0}
     - target: {fileID: 4964686992522268, guid: f8608632ba990384aa233f9e0910fef6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -315,7 +315,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4957120022517492, guid: 95f11a62bebdaad49bb0708675f64661, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4957120022517492, guid: 95f11a62bebdaad49bb0708675f64661, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -425,6 +425,85 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4fd5e3143369c74ca4e46ee8ab0e815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &849514157
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1569253629}
+    m_Modifications:
+    - target: {fileID: 7441011922665561612, guid: f90022410ed63d348b6ef456fd87e1e8,
+        type: 3}
+      propertyPath: m_Name
+      value: TriggerPoint Variant Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441011922665561615, guid: f90022410ed63d348b6ef456fd87e1e8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441011922665561615, guid: f90022410ed63d348b6ef456fd87e1e8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441011922665561615, guid: f90022410ed63d348b6ef456fd87e1e8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441011922665561615, guid: f90022410ed63d348b6ef456fd87e1e8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441011922665561615, guid: f90022410ed63d348b6ef456fd87e1e8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441011922665561615, guid: f90022410ed63d348b6ef456fd87e1e8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441011922665561615, guid: f90022410ed63d348b6ef456fd87e1e8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441011922665561615, guid: f90022410ed63d348b6ef456fd87e1e8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441011922665561615, guid: f90022410ed63d348b6ef456fd87e1e8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441011922665561615, guid: f90022410ed63d348b6ef456fd87e1e8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441011922665561615, guid: f90022410ed63d348b6ef456fd87e1e8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441011922665561614, guid: f90022410ed63d348b6ef456fd87e1e8,
+        type: 3}
+      propertyPath: victoryScene
+      value: scenes/blue_win
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441011922665561614, guid: f90022410ed63d348b6ef456fd87e1e8,
+        type: 3}
+      propertyPath: victoryName
+      value: PlayerBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f90022410ed63d348b6ef456fd87e1e8, type: 3}
 --- !u!1001 &874584722
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -533,7 +612,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1933377399582136, guid: f8608632ba990384aa233f9e0910fef6, type: 3}
       propertyPath: m_Name
-      value: Roomer
+      value: PlayerRed
       objectReference: {fileID: 0}
     - target: {fileID: 4964686992522268, guid: f8608632ba990384aa233f9e0910fef6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -783,7 +862,7 @@ PrefabInstance:
     - target: {fileID: 1689216555584924334, guid: be753402e32e1d94e96ca03d546fde33,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1689216555584924334, guid: be753402e32e1d94e96ca03d546fde33,
         type: 3}

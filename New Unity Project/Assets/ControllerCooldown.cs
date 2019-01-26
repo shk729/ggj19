@@ -12,6 +12,7 @@ public class ControllerCooldown : MonoBehaviour
     public int slowCooldown = 2;
 
     public UnityEngine.UI.Image image;
+    public UnityEngine.UI.Image image_pg;
 
     public PlayerContainer container;
 
@@ -24,6 +25,8 @@ public class ControllerCooldown : MonoBehaviour
     {
         float prc = (float) currentCooldown / cooldown;
         image.fillAmount = prc;
+        prc = (float)cooldown / 100;
+        image_pg.fillAmount = prc;
         //texter.text = this.name + ": " + prc;
 
         if (currentCooldown <= 0)

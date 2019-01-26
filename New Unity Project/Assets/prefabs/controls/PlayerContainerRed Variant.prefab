@@ -100,6 +100,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2961144025829248227}
     - target: {fileID: 2011535930, guid: cd42708b98e425046b703383a7e9f367, type: 3}
+      propertyPath: image_pg
+      value: 
+      objectReference: {fileID: 2961144025635916358}
+    - target: {fileID: 2011535930, guid: cd42708b98e425046b703383a7e9f367, type: 3}
       propertyPath: container
       value: 
       objectReference: {fileID: 2961144023767764719}
@@ -114,6 +118,14 @@ PrefabInstance:
     - target: {fileID: 1466249330, guid: cd42708b98e425046b703383a7e9f367, type: 3}
       propertyPath: m_Color.b
       value: 0.009225845
+      objectReference: {fileID: 0}
+    - target: {fileID: 2077344034, guid: cd42708b98e425046b703383a7e9f367, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 4.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2077344035, guid: cd42708b98e425046b703383a7e9f367, type: 3}
+      propertyPath: m_FillAmount
+      value: 0.92
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd42708b98e425046b703383a7e9f367, type: 3}
@@ -138,6 +150,18 @@ TextMesh:
 --- !u!114 &2961144025829248227 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2001717126, guid: cd42708b98e425046b703383a7e9f367,
+    type: 3}
+  m_PrefabInstance: {fileID: 2961144023929932645}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2961144025635916358 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2077344035, guid: cd42708b98e425046b703383a7e9f367,
     type: 3}
   m_PrefabInstance: {fileID: 2961144023929932645}
   m_PrefabAsset: {fileID: 0}

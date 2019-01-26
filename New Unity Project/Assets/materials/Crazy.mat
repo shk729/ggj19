@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: grey
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Name: Crazy
+  m_Shader: {fileID: 4800000, guid: 8e5015bd6f281d446bc05500f5561804, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BlendTex:
+        m_Texture: {fileID: 2800000, guid: 7bb254367637d9749834c2d20d43bebe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -40,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 7bb254367637d9749834c2d20d43bebe, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -56,12 +60,24 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AmplitudeX: 16
+    - _AmplitudeY: 16
+    - _BlendMode: 1
+    - _BlendStay: 10
+    - _BlendTimeScaling: 64
+    - _BlendWarp: 10
     - _BumpScale: 1
+    - _CompressionX: 1
+    - _CompressionY: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
+    - _DistortX: 0
+    - _DistortY: 0
     - _DstBlend: 0
+    - _FrequencyX: 0.1
+    - _FrequencyY: 0.1
     - _GlossMapScale: 1
-    - _Glossiness: 0.47
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
@@ -70,8 +86,13 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _TextureSize: 5
+    - _TimeScalingX: 32
+    - _TimeScalingY: 32
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.4392157, g: 0.4392157, b: 0.4392157, a: 1}
+    - _BlendTintColor: {r: 0.05873976, g: 0.7916547, b: 0.8301887, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainTintColor: {r: 0.92188364, g: 0.493948, b: 0.9433962, a: 1}

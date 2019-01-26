@@ -248,7 +248,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 66229692}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.4500003, y: 2, z: -1.11}
+  m_LocalPosition: {x: -3.4500003, y: 2, z: -2.99}
   m_LocalScale: {x: 0.19999999, y: 4, z: 2}
   m_Children: []
   m_Father: {fileID: 2068515840}
@@ -467,8 +467,23 @@ PrefabInstance:
     - target: {fileID: 54982959318494824, guid: f8608632ba990384aa233f9e0910fef6,
         type: 3}
       propertyPath: m_Mass
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 54982959318494824, guid: f8608632ba990384aa233f9e0910fef6,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 54982959318494824, guid: f8608632ba990384aa233f9e0910fef6,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 33048689569414998, guid: f8608632ba990384aa233f9e0910fef6,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 23084968194575490, guid: f8608632ba990384aa233f9e0910fef6,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -813,13 +828,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312758796}
-  m_LocalRotation: {x: 0, y: 0.9961947, z: -0.08715578, w: 0}
+  m_LocalRotation: {x: 0, y: 0.9396927, z: -0.3420201, w: 0}
   m_LocalPosition: {x: 0, y: -25, z: 5.6}
   m_LocalScale: {x: 27, y: 1, z: 15}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 10, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 40, y: 180, z: 0}
 --- !u!1001 &383122663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -932,7 +947,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 56
+  field of view: 60
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -957,13 +972,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.52405006, y: -0, z: -0, w: 0.8516875}
-  m_LocalPosition: {x: 0.05, y: 40.21, z: -19.34}
+  m_LocalRotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
+  m_LocalPosition: {x: 0, y: 40, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 63.209003, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
 --- !u!1 &585357718
 GameObject:
   m_ObjectHideFlags: 0
@@ -1378,7 +1393,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175741335}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -2.26, y: 2, z: -1.83}
+  m_LocalPosition: {x: -2.26, y: 2, z: -1.96}
   m_LocalScale: {x: 0.19999999, y: 4, z: 2}
   m_Children: []
   m_Father: {fileID: 2068515840}
@@ -1921,6 +1936,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b92e16dab5a6a004a8c836597392750d, type: 2}
+    - target: {fileID: 8989242330733872148, guid: 1e7d4d088526ddd47af0b1c2548f59be,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3714953714639936358, guid: 1e7d4d088526ddd47af0b1c2548f59be,
         type: 3}
       propertyPath: platform
@@ -2117,8 +2137,13 @@ PrefabInstance:
     - target: {fileID: 54982959318494824, guid: f8608632ba990384aa233f9e0910fef6,
         type: 3}
       propertyPath: m_Mass
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 33048689569414998, guid: f8608632ba990384aa233f9e0910fef6,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 6417911362807875340, guid: f8608632ba990384aa233f9e0910fef6,
         type: 3}
       propertyPath: platform

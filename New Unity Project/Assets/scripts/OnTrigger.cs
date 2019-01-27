@@ -15,6 +15,7 @@ public class OnTrigger : MonoBehaviour
     // Update is called once per frame
     void OnTriggerEnter(Collider other)
     {
+        Debug.Log(other.name);
         if (other.name == victoryName) UnityEngine.SceneManagement.SceneManager.LoadScene(victoryScene);
     }
 }

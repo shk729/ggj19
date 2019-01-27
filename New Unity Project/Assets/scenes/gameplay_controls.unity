@@ -870,26 +870,6 @@ PrefabInstance:
       propertyPath: platform
       value: 
       objectReference: {fileID: 779535437}
-    - target: {fileID: 2961144025294863125, guid: 5f7e2314a074ad04f96f1a9c5cf98709,
-        type: 3}
-      propertyPath: m_Name
-      value: round bg
-      objectReference: {fileID: 0}
-    - target: {fileID: 2961144025829248225, guid: 5f7e2314a074ad04f96f1a9c5cf98709,
-        type: 3}
-      propertyPath: m_Name
-      value: round
-      objectReference: {fileID: 0}
-    - target: {fileID: 2961144025635916359, guid: 5f7e2314a074ad04f96f1a9c5cf98709,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 4.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2961144025635916358, guid: 5f7e2314a074ad04f96f1a9c5cf98709,
-        type: 3}
-      propertyPath: m_FillAmount
-      value: 0.92
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f7e2314a074ad04f96f1a9c5cf98709, type: 3}
 --- !u!1001 &3770767720775122736

@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/red_win.unity
     guid: 02b012cfd4f5a5e40997ea79628cd2f9
+  - enabled: 1
+    path: Assets/scenes/gameplay_single.unity
+    guid: e4dacbd7609002e4aabc08fd79153fd6
   m_configObjects: {}

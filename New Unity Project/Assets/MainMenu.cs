@@ -21,4 +21,9 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
+
+    public void GoSolo ()
+    {
+        SceneManager.LoadScene("gameplay_single");
+    }
 }
